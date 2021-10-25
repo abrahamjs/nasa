@@ -1,6 +1,5 @@
-package com.zweet.social.model;
+package com.nasa.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;

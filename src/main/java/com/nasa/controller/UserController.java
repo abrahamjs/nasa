@@ -1,14 +1,13 @@
-package com.zweet.social.controller;
+package com.nasa.controller;
 
-import com.zweet.social.dao.UserRepository;
-import com.zweet.social.exception.NotFoundException;
-import com.zweet.social.model.User;
+import com.nasa.dao.UserRepository;
+import com.nasa.exception.NotFoundException;
+import com.nasa.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @RestController

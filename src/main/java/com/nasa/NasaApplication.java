@@ -1,16 +1,16 @@
-package com.zweet.social;
+package com.nasa;
 
-import com.zweet.social.dao.RatingRepository;
-import com.zweet.social.dao.UserRepository;
-import com.zweet.social.model.Rating;
-import com.zweet.social.model.User;
+import com.nasa.dao.RatingRepository;
+import com.nasa.dao.UserRepository;
+import com.nasa.model.Rating;
+import com.nasa.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZweetSocialMediaApplication implements CommandLineRunner {
+public class NasaApplication implements CommandLineRunner {
 
 	@Autowired
 	private UserRepository userRepository;
@@ -19,7 +19,7 @@ public class ZweetSocialMediaApplication implements CommandLineRunner {
 	private RatingRepository ratingRepository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZweetSocialMediaApplication.class, args);
+		SpringApplication.run(NasaApplication.class, args);
 	}
 
 	@Override

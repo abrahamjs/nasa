@@ -1,8 +1,8 @@
-package com.zweet.social.controller;
+package com.nasa.controller;
 
-import com.zweet.social.dao.RatingRepository;
-import com.zweet.social.exception.NotFoundException;
-import com.zweet.social.model.Rating;
+import com.nasa.dao.RatingRepository;
+import com.nasa.exception.NotFoundException;
+import com.nasa.model.Rating;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

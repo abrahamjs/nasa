@@ -1,7 +1,7 @@
-package com.zweet.social.dao;
-import com.zweet.social.model.User;
+package com.nasa.dao;
+
+import com.nasa.model.User;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 //@Repository
 public interface UserRepository extends CrudRepository<User, Long> {

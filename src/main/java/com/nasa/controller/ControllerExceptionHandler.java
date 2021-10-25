@@ -1,7 +1,5 @@
-package com.zweet.social.controller;
-
-
-import com.zweet.social.exception.NotFoundException;
+package com.nasa.controller;
+import com.nasa.exception.NotFoundException;
 import org.springframework.dao.DataAccessException;
 import org.springframework.hateoas.mediatype.vnderrors.VndErrors;
 import org.springframework.http.HttpStatus;

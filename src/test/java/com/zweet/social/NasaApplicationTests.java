@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZweetSocialMediaApplicationTests {
+class NasaApplicationTests {
 
 	@Test
 	void contextLoads() {

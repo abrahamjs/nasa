@@ -1,4 +1,4 @@
-package com.zweet.social.exception;
+package com.nasa.exception;
 
 public class NotFoundException extends RuntimeException {
 
